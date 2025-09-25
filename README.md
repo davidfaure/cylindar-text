@@ -4,8 +4,6 @@ A mesmerizing 3D cylindrical text scroll effect created with pure CSS transforms
 
 https://github.com/user-attachments/assets/147a75b2-a31c-47b5-b6bb-b104bf892261
 
-![Cylindrical Text Animation](./public/Cylindar_Text_Animation.mp4)
-
 > 🎥 **Preview**: See the cylindrical text effect in action above
 
 ## What's Used
