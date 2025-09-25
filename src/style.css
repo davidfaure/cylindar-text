@@ -1,0 +1,215 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --padding: 3.2rem;
+  --padding-mobile: 1rem;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  font-size: calc(100vw / 1440 * 10);
+  width: 100%;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+  height: 100%;
+  font-size: 1.6rem;
+  letter-spacing: -0.05em;
+  line-height: 1.1;
+  font-weight: 500;
+
+  word-break: break-all;
+
+  @media screen and (max-width: 768px) {
+    font-size: calc(100vw / 375 * 10);
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 0 !important;
+  display: none !important;
+}
+
+#app {
+  padding: 0;
+  max-width: 80em;
+  margin: 0 auto;
+  overflow-x: hidden;
+
+  @media screen and (max-width: 768px) {
+    padding: 0 var(--padding-mobile);
+    width: 100%;
+  }
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: clip;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* RESET */
+
+a {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
