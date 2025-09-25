@@ -2,11 +2,7 @@
 
 A mesmerizing 3D cylindrical text scroll effect created with pure CSS transforms and GSAP ScrollTrigger. Watch as text elements rotate around a cylinder as you scroll, creating a smooth and engaging visual experience.
 
-https://github.com/user-attachments/assets/your-video-id-here
-
-*Once you upload this to GitHub, replace the above URL with the actual GitHub-hosted video URL*
-
-Alternatively, you can reference the video directly:
+https://github.com/user-attachments/assets/f4850fcc-89fc-46f2-84f8-7599bf5ca031
 
 ![Cylindrical Text Animation](./public/Cylindar_Text_Animation.mp4)
 
@@ -56,8 +52,8 @@ ScrollTrigger.create({
   trigger: title,
   start: "center center",
   end: "+=2000vh", // Controls animation duration/speed
-  pin: wrapper,    // Keeps the element fixed during scroll
-  scrub: 2,        // Links animation to scroll position
+  pin: wrapper, // Keeps the element fixed during scroll
+  scrub: 2, // Links animation to scroll position
   animation: gsap.fromTo(
     Textwrapper,
     { rotateX: -80 },
@@ -101,6 +97,7 @@ const calculatePositions = () => {
 **Responsive Design**: The radius calculation uses viewport dimensions with a configurable offset multiplier to ensure the effect scales properly on all screen sizes. Adjust the `offset` value for optimal mobile experience.
 
 **Mathematical Positioning**: Using sine and cosine functions to position elements in a perfect circle:
+
 - `Math.sin(angle) * radius` - Y position (up/down)
 - `Math.cos(angle) * radius` - Z position (forward/back)
 
