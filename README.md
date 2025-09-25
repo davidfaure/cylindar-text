@@ -2,7 +2,7 @@
 
 A mesmerizing 3D cylindrical text scroll effect created with pure CSS transforms and GSAP ScrollTrigger. Watch as text elements rotate around a cylinder as you scroll, creating a smooth and engaging visual experience.
 
-https://github.com/user-attachments/assets/f4850fcc-89fc-46f2-84f8-7599bf5ca031
+https://github.com/user-attachments/assets/147a75b2-a31c-47b5-b6bb-b104bf892261
 
 ![Cylindrical Text Animation](./public/Cylindar_Text_Animation.mp4)
 
